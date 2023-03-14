@@ -1,2 +1,10 @@
+target
 *.class
 *.log
+
+#intelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+out
