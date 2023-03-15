@@ -34,4 +34,25 @@ print(d)
 * Block expression and assignments
 * */
 
+//block with {}
+var a = 10
+var a0 = 12
+var b = 20
+var b0 = 22
+
+val result = {val dx = a-a0; val dy = b-b0; scala.math.sqrt(dx*dx + dy*dy)}
+
+//block with identation
+var result2 =
+  val xx = a-a0;
+  val yy = b-b0;
+  scala.math.sqrt(xx*xx + yy*yy)
+
+var number = 11
+if number % 2 == 0 then
+  a = a*a
+  number += 2
+else
+  b = b*b
+  number -= 1
 
