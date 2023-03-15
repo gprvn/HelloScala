@@ -56,3 +56,25 @@ else
   b = b*b
   number -= 1
 
+{2*2; 1+1}
+
+{2*2;
+1*1;
+3*3}
+
+var i,j
+ i = j = 1
+
+
+/**
+Input & Output with Scala
+**/
+
+print("answer")
+println(42)
+println("anser:"+42)
+var age = scala.io.StdIn.readInt(24)
+var name = scala.io.StdIn.readLine("Your name")
+
+println(f"Hello, $$$name! in six months, you'll be${age + 0.5}%7.2f years old. An increase of %%5")
+
