@@ -40,6 +40,8 @@ var a0 = 12
 var b = 20
 var b0 = 22
 
+{print("hello"); print("hello")}
+
 val result = {val dx = a-a0; val dy = b-b0; scala.math.sqrt(dx*dx + dy*dy)}
 
 //block with identation
@@ -62,9 +64,6 @@ else
 1*1;
 3*3}
 
-var i,j
- i = j = 1
-
 
 /**
 Input & Output with Scala
@@ -72,9 +71,29 @@ Input & Output with Scala
 
 print("answer")
 println(42)
-println("anser:"+42)
-var age = scala.io.StdIn.readInt(24)
-var name = scala.io.StdIn.readLine("Your name")
+println("answer:"+42)
+var age = 24
+var name = "praveen"
 
 println(f"Hello, $$$name! in six months, you'll be${age + 0.5}%7.2f years old. An increase of %%5")
 
+
+/**
+ * Loops
+ * */
+
+var num = 5
+while(num >=1)
+  println(num);
+  num -= 1
+
+var num1 = 15
+while(num1 >=1)
+  println(num1);
+  num1 -= 1
+end while
+
+for i <- 1 to 10 do
+  print("num1 is:"+i)
+
+print("done")
