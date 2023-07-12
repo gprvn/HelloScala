@@ -1,6 +1,6 @@
 package udemy.lectures._01basics
 
-object ValuesVariablesTypes extends App {
+object _01ValuesVariablesTypes extends App {
 
   val x = 36 //VALS are immutable
   println(x)
@@ -20,7 +20,7 @@ object ValuesVariablesTypes extends App {
 
   val aLong:Long = 3453453453453454534L
   println(aLong)
-
+  
   val aFloat:Float = 12.12f
 
   val aDouble:Double =123.123
