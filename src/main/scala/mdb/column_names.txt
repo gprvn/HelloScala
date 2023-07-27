@@ -1,0 +1,30 @@
+/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=50766:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/praveenrao/Documents/java_learning/HelloScala/target/scala-3.2.2/classes:/Users/praveenrao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/healthmarketscience/jackcess/jackcess/3.0.1/jackcess-3.0.1.jar:/Users/praveenrao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/praveenrao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sf/ucanaccess/ucanaccess/5.0.1/ucanaccess-5.0.1.jar:/Users/praveenrao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/praveenrao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hsqldb/hsqldb/2.5.0/hsqldb-2.5.0.jar:/Users/praveenrao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar:/Users/praveenrao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2.jar mdb.ReadAccessFile
+Campaign_Table
+Column 1: ID
+Column 2: Email_Address
+Column 3: First_Name
+Column 4: Last_Name
+Column 5: Address
+Column 6: City
+Column 7: State
+Column 8: Country
+Column 9: Postal_Code
+Column 10: ProductID
+Column 11: Date_Added
+Column 12: Phone
+Column 13: CC_Email
+Column 14: Message_Sent
+Column 15: Bounce
+Column 16: Softbounce
+Column 17: Unsubscribe
+Column 18: Subscribe
+Column 19: Bad_Format
+Column 20: Date_Sent
+Column 21: Opened_Email
+Column 22: Click_1
+Column 23: Click_2
+Column 24: Click_3
+Column 25: Click_4
+Column 26: Click_5
+
+Process finished with exit code 0
